@@ -11,7 +11,7 @@ describe PagesController do
     it "should have the right title" do
       get 'home'
       response.should have_selector("title", 
-                        :content => "Ruby on rails Tutorial sample app | home")
+                        :content => "Ruby on Rails Tutorial Sample app | home")
     end
     it "should have a non-block body" do
       get 'home'
@@ -28,7 +28,7 @@ describe PagesController do
     it "should have the right title" do
       get 'contact'
       response.should have_selector("title", 
-                        :content => "Ruby on rails Tutorial sample app | contact")
+                        :content => "Ruby on Rails Tutorial Sample app | contact")
     end
   end
   
@@ -40,7 +40,7 @@ describe PagesController do
     it "should have the right title" do
       get 'about'
       response.should have_selector("title", 
-                        :content => "Ruby on rails Tutorial sample app | about")
+                        :content => "Ruby on Rails Tutorial Sample app | about")
     end
   end
 
